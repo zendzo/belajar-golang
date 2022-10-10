@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main(){
+func main() {
 	var name string
 	name = "Eko Kurniawan"
 	fmt.Println(name)
@@ -13,18 +13,18 @@ func main(){
 	fmt.Println(age)
 
 	/*
-	decalar multiple variable
+		decalar multiple variable
 
-	var (
-		firstName string
-		lastName string
-	)
-	firstName = "Eko"
-	lastName = "Khennedy"
-	*/
-	 var (
+		var (
+			firstName string
+			lastName string
+		)
 		firstName = "Eko"
-		lastName = "Kurniawan"
+		lastName = "Khennedy"
+	*/
+	var (
+		firstName = "Eko"
+		lastName  = "Kurniawan"
 	)
 	fmt.Println(firstName, lastName)
 	//asign value directly to variable without 'var' key using :=

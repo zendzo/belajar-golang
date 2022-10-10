@@ -2,17 +2,17 @@ package main
 
 import "fmt"
 
-func main(){
+func main() {
 	/*
-	const firstName string = "Eko"
-	const lastName string = "Kurniawan"
-	const age int = 766
+		const firstName string = "Eko"
+		const lastName string = "Kurniawan"
+		const age int = 766
 	*/
 	//multiple const declaration
 	const (
 		firstName string = "Eko"
-		lastName string = "Kurniawan"
-		age int = 766
+		lastName  string = "Kurniawan"
+		age       int    = 766
 	)
 	fmt.Println(firstName)
 	fmt.Println(lastName)

@@ -2,8 +2,8 @@ package main
 
 import "fmt"
 
-func main(){
-	
+func main() {
+
 	var nilai32 int32 = 100000
 	var nilai64 int64 = int64(nilai32)
 	var nilai8 int8 = int8(nilai64)
@@ -12,7 +12,7 @@ func main(){
 	fmt.Println(nilai64)
 	// error oveflow conversion
 	fmt.Println(nilai8)
-	
+
 	var name = "Eko Kuriawan"
 	var e = name[0]
 	var eString = string(e)

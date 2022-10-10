@@ -2,10 +2,10 @@ package main
 
 import "fmt"
 
-func main(){
+func main() {
 	person := map[string]string{
-		"name" : "Eko",
-		"address" : "Subang",
+		"name":    "Eko",
+		"address": "Subang",
 	}
 
 	person["title"] = "Programmer"

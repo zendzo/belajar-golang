@@ -2,13 +2,13 @@ package main
 
 import "fmt"
 
-func main(){
+func main() {
 	var names [3]string
 	names[0] = "Eko"
 	names[1] = "Kurniawan"
 	names[2] = "Khennedy"
 
-	var values = [3]int {
+	var values = [3]int{
 		6,
 		7,
 		8,
